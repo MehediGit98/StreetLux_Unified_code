@@ -1,0 +1,3910 @@
+{
+  "kind": "designs",
+  "route": "Dhaka-inspired five-section route, morning",
+  "mode": "walk",
+  "objective": "dose_weighted",
+  "rows": [
+    {
+      "key": "pale_facades",
+      "label": "Light-reflectance fa\u00e7ade requirement",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / Light-reflectance fa\u00e7ade requirement",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 14550.219590365865,
+        "mean_medi_best_heading_lx": 17882.41636531816,
+        "mean_medi_worst_heading_lx": 7171.9636927649935,
+        "dose_travel_lxh": 16069.909192026302,
+        "dose_best_lxh": 19750.13540791806,
+        "dose_worst_lxh": 7921.035456231561,
+        "mean_photopic_lux_travel": 17525.867151409693,
+        "mean_der": 0.8587093879212142,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 7802.367952084389,
+          "median": 12668.576689896214,
+          "max": 14560.14666668655,
+          "ratio_max_min": 1.8661189469790171,
+          "travel_heading_percentile": 95.83333333333334
+        },
+        "source_shares": {
+          "sky": 0.26357905166103335,
+          "facade_left": 0.10577831743153032,
+          "facade_right": 0.4094628560874728,
+          "ground": 0.04813010904189618,
+          "direct_sun": 0.17304966577806727
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.25,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 16069.909192026302,
+        "dose_worst_lxh": 7921.035456231561,
+        "mean_der": 0.8587093879212142
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 16069.909192026302,
+          "dose_worst_lxh": 7921.035456231561,
+          "mean_der": 0.8587093879212142
+        },
+        "value": 16069.909192026302
+      },
+      "rose": [
+        8765.053351634362,
+        7951.088603613096,
+        7802.367952084389,
+        8442.654103168636,
+        9326.750682441007,
+        10354.958598579013,
+        11284.024392072453,
+        11983.119164338998,
+        12497.276027497732,
+        12839.877352294696,
+        13038.582504517195,
+        13101.920069857912,
+        13049.877835261559,
+        12919.533885048793,
+        13115.84269614279,
+        13739.053786974355,
+        14245.134420257002,
+        14560.14666668655,
+        14489.440173031879,
+        13970.318869877967,
+        13130.835281686528,
+        12076.620138966548,
+        10930.52354141822,
+        9792.720091591156
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 3751.40193099295,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 3798.5926192347288,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 3846.066969178442,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 3893.827317711216,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 3941.8759071285767,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 3990.2148794456043,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 4627.37552901021,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 4684.134388752386,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.135,
+          "medi": 4741.2474093874525,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 4798.71829206771,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 4856.550594514038,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.185,
+          "medi": 4914.7477231863595,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 4973.312925382704,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 5032.249281178679,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 5091.559695447973,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 5151.24688965669,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 5211.313393675948,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.285,
+          "medi": 5271.76153752631,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 13726.936340459408,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 13853.671894399335,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 13979.585908535179,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 14104.667121119977,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 14228.904738795838,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 14352.28841716012,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 14474.808240942379,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 14596.45470354121,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 14717.218686779106,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 14837.091439867383,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 14956.064558456916,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 15074.129963504223,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 15191.279880081192,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 15307.506816235516,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 15422.80354166849,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 15537.163067044317,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 15650.578622989902,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 15763.043639603053,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 15874.551726222326,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 15985.09665162505,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 16094.672324422043,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 16203.272774416024,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 16310.892134040176,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 16417.524620628985,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 16523.16451930173,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 16627.806166545844,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 16731.44393459624,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 16834.072216394416,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 16935.685411816394,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 17036.277914345275,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 17135.844098870282,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 17234.37831039007,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 17331.874853723068,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 17428.32798402093,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 17523.73189869666,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 5777.249499298121,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 5821.769161516022,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 5866.219629034091,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 5910.591348930876,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 5954.874644971269,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 32822.521888363124,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 32957.46705046847,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 33088.33274151025,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 33215.12041582837,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 33337.83274005165,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 33456.47356582163,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 33571.0479020463,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 33681.56188816152,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 33788.02276647283,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "delta_vs_baseline_pct": 65.91764973212476
+    },
+    {
+      "key": "setback_low",
+      "label": "Height limit 6 storeys (18 m)",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / Height limit 6 storeys (18 m)",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 14239.077805559704,
+        "mean_medi_best_heading_lx": 18188.97700110037,
+        "mean_medi_worst_heading_lx": 4143.762308981473,
+        "dose_travel_lxh": 15726.270376362609,
+        "dose_best_lxh": 20088.71459899308,
+        "dose_worst_lxh": 4576.555261252872,
+        "mean_photopic_lux_travel": 17831.169200780452,
+        "mean_der": 0.8028699263502611,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 4474.830848295579,
+          "median": 6142.244760662985,
+          "max": 17933.78887259689,
+          "ratio_max_min": 4.007702074242137,
+          "travel_heading_percentile": 75.0
+        },
+        "source_shares": {
+          "sky": 0.43887996241355,
+          "facade_left": 0.011287618718336627,
+          "facade_right": 0.14935079922349012,
+          "ground": 0.04407707662103559,
+          "direct_sun": 0.3564045430235877
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 42,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.25,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 15726.270376362609,
+        "dose_worst_lxh": 4576.555261252872,
+        "mean_der": 0.8028699263502611
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 15726.270376362609,
+          "dose_worst_lxh": 4576.555261252872,
+          "mean_der": 0.8028699263502611
+        },
+        "value": 15726.270376362609
+      },
+      "rose": [
+        4474.830848295579,
+        4511.81842017954,
+        6341.961346162702,
+        9330.894102854032,
+        12234.668840129723,
+        14777.095595461918,
+        16699.96246356337,
+        17779.62298157028,
+        17933.78887259689,
+        17163.95564884786,
+        15543.563246643162,
+        13211.963219742116,
+        10378.291356880292,
+        7360.912619643522,
+        5942.5281751632665,
+        5710.154271900271,
+        5639.369785145648,
+        5656.696047797673,
+        5676.002580219384,
+        5603.367410641367,
+        5435.029309028108,
+        5194.461901719631,
+        4919.036534298607,
+        4656.447479766963
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 1789.0735345872467,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 1812.199194810531,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 1835.476809063829,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 1858.9081324939962,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 1882.4949043311465,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 1906.238845884116,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 3223.2610022766157,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 3264.8170297491424,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.135,
+          "medi": 3306.6680380309826,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 3348.817436752443,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 3391.2685743291163,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.185,
+          "medi": 3434.0247342610487,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 3477.089131425566,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 3520.464908323439,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 3564.1551313723294,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 3608.162787115662,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 3652.4907784414877,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.285,
+          "medi": 3697.141920768759,
+          "section": "Mixed-use collector",
+          "svf": 0.1015625
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 8951.674663149928,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 9042.61778846368,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 13076.468985183597,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 13242.323362300824,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 13408.181819280506,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 13574.017417870076,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 13739.803375784963,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 13905.51307472016,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 14071.120068509574,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 14236.5980909486,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 14401.92106362481,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 14567.063103595481,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 14731.99853092735,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 14896.701876101863,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 15061.14788716525,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 15225.311536888279,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 15389.168029554397,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 15552.692807646969,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 15715.861558311362,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 15878.65021961918,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 16041.03498654221,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 16202.9923168355,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 16364.498936548105,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 16525.53184536067,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 16686.068321664632,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 16846.08592738895,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 17005.56251257932,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 17164.47621967896,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 17322.805487626323,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 17480.529055606028,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 17637.625966572952,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 17794.075570498924,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 17949.85752734957,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 18104.951809776307,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 18259.33870556427,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.18880208333333334
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 4322.94470970361,
+          "section": "Flyover underpass",
+          "svf": 0.16015625
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 4342.999876709121,
+          "section": "Flyover underpass",
+          "svf": 0.16015625
+        },
+        {
+          "t": 8.91,
+          "medi": 4362.877764128572,
+          "section": "Flyover underpass",
+          "svf": 0.16015625
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 4382.578816399864,
+          "section": "Flyover underpass",
+          "svf": 0.16015625
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 4402.103496660623,
+          "section": "Flyover underpass",
+          "svf": 0.16015625
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 36044.13201449957,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 36161.14769045673,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 36274.1546605062,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 36383.17425848159,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 36488.228590511906,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 36589.34049659032,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 36686.53351233755,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 36779.83183207721,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 36869.26027174532,
+          "section": "Motijheel office canyon",
+          "svf": 0.13541666666666666
+        }
+      ],
+      "delta_vs_baseline_pct": 62.36966797501928
+    },
+    {
+      "key": "widen_18",
+      "label": "Minimum street width 18 m",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / Minimum street width 18 m",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 9679.926222571998,
+        "mean_medi_best_heading_lx": 9762.067504771207,
+        "mean_medi_worst_heading_lx": 3243.5558690416515,
+        "dose_travel_lxh": 10690.94073915174,
+        "dose_best_lxh": 10781.661221936201,
+        "dose_worst_lxh": 3582.3272598082244,
+        "mean_photopic_lux_travel": 11951.411455169942,
+        "mean_der": 0.8273005396662502,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 3493.021583420486,
+          "median": 5384.617417546093,
+          "max": 9285.856358193892,
+          "ratio_max_min": 2.658402227535298,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.45971220627995557,
+          "facade_left": 0.018760829560551813,
+          "facade_right": 0.2060218088993345,
+          "ground": 0.055388437506778285,
+          "direct_sun": 0.26011671775337986
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.25,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 10690.94073915174,
+        "dose_worst_lxh": 3582.3272598082244,
+        "mean_der": 0.8273005396662502
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 10690.94073915174,
+          "dose_worst_lxh": 3582.3272598082244,
+          "mean_der": 0.8273005396662502
+        },
+        "value": 10690.94073915174
+      },
+      "rose": [
+        3739.826275784966,
+        3493.021583420486,
+        3766.647672732543,
+        4747.897684622134,
+        5850.787212035413,
+        6983.0542015114115,
+        8020.288087984089,
+        8796.015476539831,
+        9226.011682738032,
+        9285.856358193892,
+        8982.743290867978,
+        8349.769341608771,
+        7443.346758574097,
+        6362.892471815829,
+        5607.292008375834,
+        5433.878597847866,
+        5335.35623724432,
+        5301.337107845541,
+        5286.891116207868,
+        5197.215113127742,
+        5007.060225157803,
+        4734.268376132678,
+        4408.701983448471,
+        4064.9880649709476
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 6526.589664167115,
+          "section": "Residential para lane",
+          "svf": 0.1484375
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 6605.263871728756,
+          "section": "Residential para lane",
+          "svf": 0.1484375
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 6684.011124743555,
+          "section": "Residential para lane",
+          "svf": 0.1484375
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 6762.829239483743,
+          "section": "Residential para lane",
+          "svf": 0.1484375
+        },
+        {
+          "t": 8.07,
+          "medi": 6841.716134963045,
+          "section": "Residential para lane",
+          "svf": 0.1484375
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 6920.669822377557,
+          "section": "Residential para lane",
+          "svf": 0.1484375
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 3602.4022551306844,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 3647.3335473913166,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.135,
+          "medi": 3692.5368335784988,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 3738.015191746561,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 3783.7716795170113,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.185,
+          "medi": 3829.8093330843635,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 3876.1311661701884,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 3922.7401688648183,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 3969.6393064522244,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 4016.8315180509685,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 4064.3197151677136,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.285,
+          "medi": 4112.106780100414,
+          "section": "Mixed-use collector",
+          "svf": 0.12109375
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 6785.884941264557,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 6858.150552417287,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 6930.416551746016,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 7002.679527089743,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 7074.936036125078,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 7147.182594627385,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 7219.41566466883,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 7291.631642676958,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 7363.826847667171,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 7435.997509307668,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 7508.139756138403,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 7580.249603863016,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 7652.322943773651,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 7724.355531361208,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 7796.342975047927,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 7868.280725337654,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 7940.164064079285,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 8011.9880941414,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 8083.747729431432,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 8155.437685334288,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 8227.052469513012,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 8298.586373344211,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 8370.03346371505,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 8441.387575449482,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 8512.642304309697,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 8583.791000619529,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 8654.826763558343,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 8725.742436075241,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 8796.530600656279,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 8867.183575701274,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 8937.693412738934,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 9008.051894423346,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 9078.250533354352,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 9148.28057167262,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 9218.132981617464,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 2032.9316148191392,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 2048.760616264211,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 2064.591442153905,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 2080.4219931508505,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 2096.2501391859555,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 28463.519003254238,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 28594.89569290235,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 28723.06315402703,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 28848.019687668086,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 28969.764337551627,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 29088.29686806107,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 29203.617742610782,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 29315.72810324371,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 29424.629750418797,
+          "section": "Motijheel office canyon",
+          "svf": 0.06640625
+        }
+      ],
+      "delta_vs_baseline_pct": 10.381193799503713
+    },
+    {
+      "key": "pale_paving",
+      "label": "Pale paving instead of asphalt",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / Pale paving instead of asphalt",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 9217.209455644956,
+        "mean_medi_best_heading_lx": 9267.290767039778,
+        "mean_medi_worst_heading_lx": 3369.1288434830763,
+        "dose_travel_lxh": 10179.895776567875,
+        "dose_best_lxh": 10235.207802708379,
+        "dose_worst_lxh": 3721.0156338024203,
+        "mean_photopic_lux_travel": 11339.19975065682,
+        "mean_der": 0.8332560103116293,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 3642.9657949619927,
+          "median": 5082.181103276243,
+          "max": 8881.205776430228,
+          "ratio_max_min": 2.4379053431444273,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.41608396766329836,
+          "facade_left": 0.01725030219664686,
+          "facade_right": 0.19901816721959115,
+          "ground": 0.09447262323541183,
+          "direct_sun": 0.27317493968505174
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.25,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 10179.895776567875,
+        "dose_worst_lxh": 3721.0156338024203,
+        "mean_der": 0.8332560103116293
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 10179.895776567875,
+          "dose_worst_lxh": 3721.0156338024203,
+          "mean_der": 0.8332560103116293
+        },
+        "value": 10179.895776567875
+      },
+      "rose": [
+        3840.7300297506595,
+        3642.9657949619927,
+        3938.1593974461016,
+        4859.864477309635,
+        5867.866272765198,
+        6896.830137204011,
+        7831.647731682744,
+        8515.411361008522,
+        8871.640481459239,
+        8881.205776430228,
+        8552.932030740669,
+        7919.984278987166,
+        7038.356173113648,
+        6003.902611562753,
+        5301.512944865857,
+        5132.724464339995,
+        5031.637742212491,
+        5008.500681492416,
+        5019.903882607034,
+        4971.868815256796,
+        4837.785807543544,
+        4631.939504117876,
+        4377.834634245205,
+        4103.581746205083
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 1864.296336448217,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 1888.242622689779,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 1912.339882982228,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 1936.5897388675755,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 1960.9937913752965,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 1985.5536189770855,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 2450.1385369627037,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 2479.9679492334485,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.135,
+          "medi": 2509.995099453618,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 2540.2233631522954,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 2570.6561120122697,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.185,
+          "medi": 2601.2967120723088,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 2632.1485219041547,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 2663.214890735303,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 2694.4991565822834,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 2726.0046443023966,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 2757.7346636296497,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.285,
+          "medi": 2789.6925071655214,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 7417.096533866718,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 7495.399407447249,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 7573.710926160125,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 7652.028017179575,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 7730.34759073032,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 7808.666528008547,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 7886.981669025202,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 7965.289800279544,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 8043.587642617037,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 8121.871838875993,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 8200.13894168592,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 8278.385401319772,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 8356.60755366347,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 8434.801608357808,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 8512.963637033474,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 8591.089561975696,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 8669.175144859413,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 8747.215975894112,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 8825.207463295097,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 8903.144823162047,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 8981.023069690613,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 9058.837006031052,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 9136.5812154661,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 9214.250053216241,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 9291.837638802517,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 9369.337849015834,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 9446.744311544191,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 9524.050399190968,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 9601.249224958212,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 9678.33363769637,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 9755.296218590223,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 9832.129278407781,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 9908.824855559626,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 9985.374714903153,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 10061.770347521258,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 2420.821653366093,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 2439.826257419419,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 2458.8499662966965,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 2477.8907803915454,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 2496.9466690994004,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 26713.983013019682,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 26846.00810590378,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 26974.840523403236,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 27100.47532004469,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 27222.908581222677,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 27342.13740439914,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 27458.15988002812,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 27570.9750730934,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 27680.583004103806,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "delta_vs_baseline_pct": 5.104786939567695
+    },
+    {
+      "key": "baseline",
+      "label": "As existing",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / As existing",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 8769.542971382069,
+        "mean_medi_best_heading_lx": 8809.798525570774,
+        "mean_medi_worst_heading_lx": 2906.97703388726,
+        "dose_travel_lxh": 9685.473015059752,
+        "dose_best_lxh": 9729.9330382415,
+        "dose_worst_lxh": 3210.5946352043743,
+        "mean_photopic_lux_travel": 10818.025930213185,
+        "mean_der": 0.8331475750629632,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 3166.970268679223,
+          "median": 4734.297983566108,
+          "max": 8397.085540126001,
+          "ratio_max_min": 2.6514570165598634,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.43732416770220944,
+          "facade_left": 0.017257981268132473,
+          "facade_right": 0.20628884857177512,
+          "ground": 0.05200906412961664,
+          "direct_sun": 0.28711993832826616
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.28,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 9685.473015059752,
+        "dose_worst_lxh": 3210.5946352043743,
+        "mean_der": 0.8331475750629632
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 9685.473015059752,
+          "dose_worst_lxh": 3210.5946352043743,
+          "mean_der": 0.8331475750629632
+        },
+        "value": 9685.473015059752
+      },
+      "rose": [
+        3381.7438729509017,
+        3166.970268679223,
+        3451.070018747821,
+        4367.242479015075,
+        5373.474162129644,
+        6403.340767329989,
+        7338.383068994199,
+        8022.586890681123,
+        8381.419106955711,
+        8397.085540126001,
+        8080.221556522927,
+        7464.087590446097,
+        6604.17920238138,
+        5594.86130134569,
+        4918.9599930537,
+        4775.097119014295,
+        4693.498848117921,
+        4681.87469324488,
+        4692.741302927412,
+        4633.06554686037,
+        4479.00846351351,
+        4247.728433374429,
+        3966.6898161502654,
+        3666.7116066261265
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 1864.296336448217,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 1888.242622689779,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 1912.339882982228,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 1936.5897388675755,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 1960.9937913752965,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 1985.5536189770855,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 2268.6396384698055,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 2296.494844850104,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.135,
+          "medi": 2324.5371894418213,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 2352.7698143499288,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 2381.195857645122,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.185,
+          "medi": 2409.8184516016195,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 2438.640720908485,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 2467.6657808298773,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 2496.896735368239,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 2526.3366753527575,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 2555.988676508083,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.285,
+          "medi": 2585.8557974783066,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 6785.884941264557,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 6858.150552417287,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 6930.416551746016,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 7002.679527089743,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 7074.936036125078,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 7147.182594627385,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 7219.41566466883,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 7291.631642676958,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 7363.826847667171,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 7435.997509307668,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 7508.139756138403,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 7580.249603863016,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 7652.322943773651,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 7724.355531361208,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 7796.342975047927,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 7868.280725337654,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 7940.164064079285,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 8011.9880941414,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 8083.747729431432,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 8155.437685334288,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 8227.052469513012,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 8298.586373344211,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 8370.03346371505,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 8441.387575449482,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 8512.642304309697,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 8583.791000619529,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 8654.826763558343,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 8725.742436075241,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 8796.530600656279,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 8867.183575701274,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 8937.693412738934,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 9008.051894423346,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 9078.250533354352,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 9148.28057167262,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 9218.132981617464,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 2032.9316148191392,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 2048.760616264211,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 2064.591442153905,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 2080.4219931508505,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 2096.2501391859555,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 26713.983013019682,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 26846.00810590378,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 26974.840523403236,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 27100.47532004469,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 27222.908581222677,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 27342.13740439914,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 27458.15988002812,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 27570.9750730934,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 27680.583004103806,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "delta_vs_baseline_pct": 0.0
+    },
+    {
+      "key": "canopy_40",
+      "label": "Street trees, 40% cover",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / Street trees, 40% cover",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 5740.63624087772,
+        "mean_medi_best_heading_lx": 5989.870175735131,
+        "mean_medi_worst_heading_lx": 2326.9163492392163,
+        "dose_travel_lxh": 6340.213803813838,
+        "dose_best_lxh": 6615.478838534134,
+        "dose_worst_lxh": 2569.9498346042014,
+        "mean_photopic_lux_travel": 7136.620029352986,
+        "mean_der": 0.8088716771321643,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 2530.6010455844194,
+          "median": 4058.082093536657,
+          "max": 5365.92619176342,
+          "ratio_max_min": 2.120415701687268,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.4080323421922386,
+          "facade_left": 0.025136709867539967,
+          "facade_right": 0.2803227815871266,
+          "ground": 0.06481229698162971,
+          "direct_sun": 0.22169586937146518
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.25,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 6340.213803813838,
+        "dose_worst_lxh": 2569.9498346042014,
+        "mean_der": 0.8088716771321643
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 6340.213803813838,
+          "dose_worst_lxh": 2569.9498346042014,
+          "mean_der": 0.8088716771321643
+        },
+        "value": 6340.213803813838
+      },
+      "rose": [
+        2749.6897595663413,
+        2530.6010455844194,
+        2598.797738753884,
+        3024.9948062955887,
+        3543.7701952593775,
+        4108.272204991762,
+        4633.672849042511,
+        5037.706760383366,
+        5284.847492535253,
+        5365.92619176342,
+        5286.050724099432,
+        5059.314041035937,
+        4711.369014532927,
+        4290.435811677185,
+        4036.8581849280654,
+        4043.2794896516702,
+        4072.8846974216435,
+        4112.158247040914,
+        4112.065603634888,
+        4026.1528992967646,
+        3852.282739730933,
+        3609.977467719807,
+        3326.383032517624,
+        3029.4754965932543
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 1308.4610612039178,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 1325.4634965061493,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 1342.5800114034973,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 1359.8118132545005,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 1377.1600917017754,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 1394.6260170477917,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 1479.6144180948397,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 1497.9979717906806,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.135,
+          "medi": 1516.5099371090907,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 1535.1523021247522,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 1553.9270464919714,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.185,
+          "medi": 1572.8361400925733,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 1591.8815416637556,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 1611.0651973817983,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 1630.3890394596192,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 1649.854984678882,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 1669.4649329154113,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.285,
+          "medi": 1689.2207656335627,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 5200.362047673199,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 5254.204558364074,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 5308.004948391595,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 5361.76010183263,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 5415.466925224886,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 5469.122339950501,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 5522.723274480017,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 5576.266656404906,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 5629.749404536534,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 5683.168420761754,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 5736.520581939618,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 5789.802731762666,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 5843.011672632359,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 5896.144157591874,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 5949.196882252492,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 6002.166476980247,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 6055.049499056543,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 6107.842425081073,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 6160.541643549886,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 6213.143447671889,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 6265.644028361934,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 6318.039467662392,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 6370.3257323265725,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 6422.498667810973,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 6474.553992618037,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 6526.48729302723,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 6578.294018254482,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 6629.969475982525,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 6681.508828486213,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 6732.907089104631,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 6784.159119280834,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 6835.259626107421,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 6886.203160416407,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 6936.984115356708,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 6987.596725652617,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 2032.9316148191392,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 2048.760616264211,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 2064.591442153905,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 2080.4219931508505,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 2096.2501391859555,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 13802.098262330439,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 13908.183955910912,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 14012.714119198403,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 14115.669884300625,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 14217.03312605867,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 14316.78645766894,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 14414.913225761014,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 14511.397505664629,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 14606.224095900821,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "delta_vs_baseline_pct": -34.53893481551634
+    },
+    {
+      "key": "canopy_70",
+      "label": "Street trees, 70% cover",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning / Street trees, 70% cover",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666668,
+        "mean_medi_travel_lx": 3505.263740445665,
+        "mean_medi_best_heading_lx": 4336.376861009417,
+        "mean_medi_worst_heading_lx": 1627.375078899635,
+        "dose_travel_lxh": 3871.3690644477683,
+        "dose_best_lxh": 4789.28733315929,
+        "dose_worst_lxh": 1797.3453649180415,
+        "mean_photopic_lux_travel": 4451.689669746547,
+        "mean_der": 0.7767184254683118,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 1818.4718018261322,
+          "median": 3025.8544199541197,
+          "max": 3584.983807551409,
+          "ratio_max_min": 1.971426669333736,
+          "travel_heading_percentile": 87.5
+        },
+        "source_shares": {
+          "sky": 0.3194612375791189,
+          "facade_left": 0.03934024541280391,
+          "facade_right": 0.40320442009108387,
+          "ground": 0.0909835877090667,
+          "direct_sun": 0.14701050920792677
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.26,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 3871.3690644477683,
+        "dose_worst_lxh": 1797.3453649180415,
+        "mean_der": 0.7767184254683118
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 3871.3690644477683,
+          "dose_worst_lxh": 1797.3453649180415,
+          "mean_der": 0.7767184254683118
+        },
+        "value": 3871.3690644477683
+      },
+      "rose": [
+        2167.595227941738,
+        1919.5843139126835,
+        1818.4718018261322,
+        1900.5476528601114,
+        2058.8481328593202,
+        2272.0551795728247,
+        2495.1532600905325,
+        2696.487054649574,
+        2866.6506740837335,
+        3001.178769910977,
+        3099.716354694782,
+        3160.2340929969596,
+        3184.5527408446023,
+        3183.1616418049807,
+        3242.558237972271,
+        3388.09406005084,
+        3508.48068173126,
+        3584.983807551409,
+        3581.904050896166,
+        3482.999737829452,
+        3299.3257100528094,
+        3050.5300699972627,
+        2762.3807093542773,
+        2459.200368986109
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 897.589343408509,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 909.0866273057909,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 920.657558283538,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 932.302818189382,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 944.0230707049353,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 955.8189600580297,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 1003.8508618464756,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 1015.9432077093054,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.135,
+          "medi": 1028.111212308717,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 1040.3559158287346,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 1052.6783431669555,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.185,
+          "medi": 1065.0795028328246,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 1077.560385833896,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 1090.1219645295444,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 1102.7651915048857,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 1115.4909983952605,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 1128.3002947146833,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.285,
+          "medi": 1141.19396666769,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 3598.8720348525017,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 3631.0908544261147,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 3663.1785700415485,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 3695.1335841554705,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 3726.9543638068003,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 3758.639436992306,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 3790.1873888973178,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 3821.5968579207606,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 3852.8665317023465,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 3883.995142908693,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 3914.981464990856,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 3945.8243078489436,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 3976.522513435995,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 4007.0749513286178,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 4037.4805142083474,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 4067.7381134550624,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 4097.846674623089,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 4127.805133002343,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 4157.612429205744,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 4187.267504825805,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 4216.769298104398,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 4246.116739808458,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 4275.308749093417,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 4304.344229543325,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 4333.222065334847,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 4361.941117548644,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 4390.5002206540685,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 4418.898179113671,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 4447.133764284403,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 4475.205711407309,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 4503.112716860564,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 4530.853435620808,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 4558.426478960494,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 4585.830412329339,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 4613.063753580204,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 2032.9316148191392,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 2048.760616264211,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 2064.591442153905,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 2080.4219931508505,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 2096.2501391859555,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 6380.260140910372,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 6440.885698600525,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 6501.01310702538,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 6560.6267922150655,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 6619.711465875036,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 6678.252130276566,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 6736.234082691429,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 6793.6429197936395,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 6850.464541463019,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "delta_vs_baseline_pct": -60.029117231257025
+    }
+  ],
+  "pareto_indices": [
+    0
+  ],
+  "scenarios": [
+    {
+      "key": "baseline",
+      "label": "As existing",
+      "overrides": {}
+    },
+    {
+      "key": "canopy_40",
+      "label": "Street trees, 40% cover",
+      "overrides": {
+        "foliage_cover": 0.4
+      }
+    },
+    {
+      "key": "canopy_70",
+      "label": "Street trees, 70% cover",
+      "overrides": {
+        "foliage_cover": 0.7
+      }
+    },
+    {
+      "key": "widen_18",
+      "label": "Minimum street width 18 m",
+      "overrides": {
+        "min_width_m": 18.0
+      }
+    },
+    {
+      "key": "setback_low",
+      "label": "Height limit 6 storeys (18 m)",
+      "overrides": {
+        "max_height_m": 18.0
+      }
+    },
+    {
+      "key": "pale_facades",
+      "label": "Light-reflectance fa\u00e7ade requirement",
+      "overrides": {
+        "left_material": "whitewash",
+        "right_material": "whitewash"
+      }
+    },
+    {
+      "key": "pale_paving",
+      "label": "Pale paving instead of asphalt",
+      "overrides": {
+        "replace_ground": {
+          "from": "asphalt",
+          "to": "concrete_pavement"
+        }
+      }
+    }
+  ],
+  "provenance": {
+    "package": "streetlux",
+    "official_action_spectra": true,
+    "spectral_inputs": {
+      "official_action_spectra": true,
+      "official_daylight_components": false,
+      "official_solar_spectrum": true
+    },
+    "known_biases": {
+      "one_bounce_canopy": {
+        "magnitude": "unquantified",
+        "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+        "fix": "none in this version; treat canopy scenarios as indicative.",
+        "affects": "canopy scenarios only."
+      }
+    },
+    "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+    "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+    "n_directions": 768,
+    "n_headings": 24,
+    "step_seconds": 60.0,
+    "wall_clock_s": 0.28,
+    "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+  }
+}

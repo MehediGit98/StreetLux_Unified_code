@@ -1,0 +1,24 @@
+{
+  "package": "StreetLux_Unified_Code",
+  "model_version": "0.2.1",
+  "verified_on": "2026-10-02",
+  "regression_tests": {
+    "passed": 11,
+    "failed": 0,
+    "command": "python verify.py"
+  },
+  "reproduction": {
+    "command": "python reproduce.py",
+    "numeric_fields_matched": 3367,
+    "relative_tolerance": 1e-09,
+    "absolute_tolerance": 1e-08,
+    "decomposition_rows_matched": 6,
+    "figures_regenerated": 4,
+    "manuscript_rebuilt": true
+  },
+  "scope": "The checks reproduce the supplied deterministic StreetLux study; they are not field or Radiance validation.",
+  "convergence_check": {
+    "command": "python verification/convergence_check.py",
+    "output": "verification/convergence.json"
+  }
+}

@@ -1,0 +1,17 @@
+StreetLux unified-package verification
+Date: 2026-10-02
+Model version: 0.2.1
+
+python verify.py
+PASS: 11 regression tests
+
+python reproduce.py
+PASS: 3367 numeric fields match the saved results (rtol=1e-9, atol=1e-8).
+PASS: all 6 sequential and symmetric decomposition rows match.
+PASS: four figures regenerated.
+
+python authoring/build_manuscript.py
+PASS: Word manuscript rebuilt from manuscript.md, computed tables, figures and native equations.
+
+python verification/convergence_check.py
+DONE: verification/convergence.json written.

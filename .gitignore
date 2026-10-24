@@ -1,0 +1,10 @@
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+manuscript
+authoring
+CHANGELOG.md
+SUBMISSION_NOTES.md

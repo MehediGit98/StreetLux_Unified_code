@@ -1,0 +1,2250 @@
+{
+  "kind": "modes",
+  "route": "Dhaka-inspired five-section route, morning",
+  "objective": "dose_weighted",
+  "rows": [
+    {
+      "key": "walk",
+      "label": "On foot",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "walk",
+        "mode_label": "On foot",
+        "duration_min": 66.26666666666667,
+        "mean_medi_travel_lx": 8769.54297138207,
+        "mean_medi_best_heading_lx": 8809.798525570775,
+        "mean_medi_worst_heading_lx": 2906.977033887261,
+        "dose_travel_lxh": 9685.473015059752,
+        "dose_best_lxh": 9729.9330382415,
+        "dose_worst_lxh": 3210.5946352043743,
+        "mean_photopic_lux_travel": 10818.025930213185,
+        "mean_der": 0.8331475750629631,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 3166.970268679223,
+          "median": 4734.297983566107,
+          "max": 8397.085540126003,
+          "ratio_max_min": 2.651457016559864,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.43732416770220955,
+          "facade_left": 0.017257981268132477,
+          "facade_right": 0.20628884857177518,
+          "ground": 0.052009064129616644,
+          "direct_sun": 0.2871199383282662
+        },
+        "counters": {
+          "steps": 67,
+          "sun_up_steps": 67,
+          "beam_visible_steps": 9,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 67,
+          "enclosure_filtered_steps": 0
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.25,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 9685.473015059752,
+        "dose_worst_lxh": 3210.5946352043743,
+        "mean_der": 0.8331475750629631
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 9685.473015059752,
+          "dose_worst_lxh": 3210.5946352043743,
+          "mean_der": 0.8331475750629631
+        },
+        "value": 9685.473015059752
+      },
+      "rose": [
+        3381.7438729509017,
+        3166.970268679223,
+        3451.070018747821,
+        4367.242479015074,
+        5373.474162129643,
+        6403.340767329989,
+        7338.3830689942,
+        8022.586890681125,
+        8381.419106955711,
+        8397.085540126003,
+        8080.221556522927,
+        7464.087590446097,
+        6604.179202381379,
+        5594.86130134569,
+        4918.9599930537,
+        4775.097119014294,
+        4693.498848117921,
+        4681.87469324488,
+        4692.741302927411,
+        4633.06554686037,
+        4479.00846351351,
+        4247.728433374429,
+        3966.689816150265,
+        3666.711606626125
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 1864.2963364482168,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 1888.2426226897776,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 1912.3398829822293,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.054444444444444,
+          "medi": 1936.5897388675755,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.07,
+          "medi": 1960.9937913752965,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.085555555555555,
+          "medi": 1985.5536189770864,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.101666666666667,
+          "medi": 2268.6396384698055,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.118333333333334,
+          "medi": 2296.494844850104,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.135,
+          "medi": 2324.5371894418213,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.151666666666667,
+          "medi": 2352.7698143499288,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.168333333333333,
+          "medi": 2381.195857645122,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.185,
+          "medi": 2409.8184516016195,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.201666666666666,
+          "medi": 2438.6407209084864,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.218333333333334,
+          "medi": 2467.665780829878,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.235000000000001,
+          "medi": 2496.8967353682383,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.251666666666667,
+          "medi": 2526.336675352759,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.268333333333334,
+          "medi": 2555.988676508083,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.285,
+          "medi": 2585.8557974783066,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.3015873015873,
+          "medi": 6785.884941264557,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.318095238095237,
+          "medi": 6858.150552417288,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.334603174603174,
+          "medi": 6930.416551746011,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.351111111111111,
+          "medi": 7002.679527089743,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.367619047619048,
+          "medi": 7074.936036125078,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.384126984126985,
+          "medi": 7147.182594627382,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.40063492063492,
+          "medi": 7219.41566466883,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.417142857142856,
+          "medi": 7291.631642676956,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.433650793650793,
+          "medi": 7363.826847667171,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.45015873015873,
+          "medi": 7435.997509307667,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.466666666666667,
+          "medi": 7508.139756138403,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.483174603174604,
+          "medi": 7580.249603863019,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.499682539682539,
+          "medi": 7652.322943773649,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.516190476190475,
+          "medi": 7724.355531361204,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.532698412698412,
+          "medi": 7796.342975047927,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.549206349206349,
+          "medi": 7868.280725337656,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.565714285714286,
+          "medi": 7940.164064079285,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.582222222222223,
+          "medi": 8011.9880941414,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.598730158730158,
+          "medi": 8083.747729431433,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.615238095238094,
+          "medi": 8155.437685334288,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.631746031746031,
+          "medi": 8227.052469513012,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.648253968253968,
+          "medi": 8298.586373344211,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.664761904761905,
+          "medi": 8370.03346371505,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.681269841269842,
+          "medi": 8441.387575449482,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.697777777777777,
+          "medi": 8512.642304309695,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.714285714285714,
+          "medi": 8583.791000619529,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.73079365079365,
+          "medi": 8654.826763558342,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.747301587301587,
+          "medi": 8725.742436075243,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.763809523809524,
+          "medi": 8796.530600656275,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.78031746031746,
+          "medi": 8867.183575701272,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.796825396825396,
+          "medi": 8937.693412738934,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.813333333333333,
+          "medi": 9008.05189442334,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.82984126984127,
+          "medi": 9078.250533354352,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.846349206349206,
+          "medi": 9148.28057167262,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.862857142857143,
+          "medi": 9218.132981617462,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.878888888888888,
+          "medi": 2032.9316148191397,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.894444444444444,
+          "medi": 2048.7606162642105,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.91,
+          "medi": 2064.591442153905,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.925555555555555,
+          "medi": 2080.42199315085,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.94111111111111,
+          "medi": 2096.250139185955,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.95753086419753,
+          "medi": 26713.983013019682,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.974814814814813,
+          "medi": 26846.00810590378,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.992098765432099,
+          "medi": 26974.840523403247,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.009382716049382,
+          "medi": 27100.475320044683,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.026666666666666,
+          "medi": 27222.90858122267,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.043950617283949,
+          "medi": 27342.13740439914,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.061234567901234,
+          "medi": 27458.15988002812,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.078518518518518,
+          "medi": 27570.9750730934,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 9.095802469135801,
+          "medi": 27680.583004103806,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "decomposition": {
+        "duration_h": 1.1044444444444443,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 8769.54297138207,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 9685.473015059752,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": 0.0,
+        "gap_from_duration_lxh": 0.0,
+        "gap_from_exposure_rate_lxh": 0.0,
+        "duration_share_of_gap": null,
+        "dose_at_reference_duration_lxh": 9685.473015059752,
+        "reference_label": "On foot"
+      }
+    },
+    {
+      "key": "rickshaw",
+      "label": "Cycle rickshaw (hood down)",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "rickshaw",
+        "mode_label": "Cycle rickshaw (hood down)",
+        "duration_min": 33.13333333333333,
+        "mean_medi_travel_lx": 5587.977782350655,
+        "mean_medi_best_heading_lx": 5612.8592512590885,
+        "mean_medi_worst_heading_lx": 833.2194729655606,
+        "dose_travel_lxh": 3085.8055086980835,
+        "dose_best_lxh": 3099.545608750852,
+        "dose_worst_lxh": 460.1223089598706,
+        "mean_photopic_lux_travel": 6868.075796776042,
+        "mean_der": 0.8269307164169716,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 885.9390522727246,
+          "median": 3464.8848743694152,
+          "max": 5246.398371252356,
+          "ratio_max_min": 5.921850219598765,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.5074282637167331,
+          "facade_left": 0.02380397211016099,
+          "facade_right": 0.27786242113316373,
+          "ground": 0.0453526719988867,
+          "direct_sun": 0.14555267104105554
+        },
+        "counters": {
+          "steps": 33,
+          "sun_up_steps": 33,
+          "beam_visible_steps": 2,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 33,
+          "enclosure_filtered_steps": 33
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.12,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 3085.8055086980835,
+        "dose_worst_lxh": 460.1223089598706,
+        "mean_der": 0.8269307164169716
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 3085.8055086980835,
+          "dose_worst_lxh": 460.1223089598706,
+          "mean_der": 0.8269307164169716
+        },
+        "value": 3085.8055086980835
+      },
+      "rose": [
+        896.7457762509197,
+        885.9390522727246,
+        1280.8096315223445,
+        1986.9562537608501,
+        2756.3176000312205,
+        3529.0433481121167,
+        4237.4133879604815,
+        4778.088053495825,
+        5112.44184909709,
+        5246.398371252356,
+        5210.957249840892,
+        5016.512512391195,
+        4685.133891233577,
+        4248.132492765203,
+        3987.680470842451,
+        3854.0357175244885,
+        3656.3673082775986,
+        3400.7264006267137,
+        3089.474372660646,
+        2688.757117215322,
+        2224.103442360811,
+        1755.8879832744753,
+        1356.1473952209508,
+        1060.1021123470546
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.007777777777777,
+          "medi": 1650.7455793891581,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.023333333333333,
+          "medi": 1671.8258655886734,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.03888888888889,
+          "medi": 1693.0324833884285,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.055,
+          "medi": 1944.3736298803694,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.071666666666667,
+          "medi": 1968.2768799552966,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.088333333333333,
+          "medi": 1992.3265052283282,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.105,
+          "medi": 2016.5250422941722,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.121666666666666,
+          "medi": 2040.8750205862236,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.138333333333334,
+          "medi": 2065.378960673396,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.15516339869281,
+          "medi": 5777.055337304746,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.172156862745098,
+          "medi": 5846.673333323539,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.189150326797385,
+          "medi": 5916.3041968862935,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.206143790849673,
+          "medi": 5985.943567373709,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.22313725490196,
+          "medi": 6055.587136988179,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.240130718954248,
+          "medi": 6125.230639576995,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.257124183006535,
+          "medi": 6194.869838809311,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.274117647058823,
+          "medi": 6264.5005163194855,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.29111111111111,
+          "medi": 6334.118459244432,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.308104575163398,
+          "medi": 6403.719447761153,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.325098039215685,
+          "medi": 6473.299242192362,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.342091503267973,
+          "medi": 6542.853569904266,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.35908496732026,
+          "medi": 6612.378112201625,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.376078431372548,
+          "medi": 6681.86849081901,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.393071895424836,
+          "medi": 6751.3202545702625,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.410065359477125,
+          "medi": 6820.728865759972,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.427058823529412,
+          "medi": 6890.089686577509,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.445277777777779,
+          "medi": 1433.3513496391856,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.464722222222223,
+          "medi": 1450.2165459643275,
+          "section": "Flyover underpass",
+          "svf": 0.08203125
+        },
+        {
+          "t": 8.482222222222223,
+          "medi": 5988.363296453457,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        },
+        {
+          "t": 8.49777777777778,
+          "medi": 6031.18504356422,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        },
+        {
+          "t": 8.513333333333335,
+          "medi": 6073.279707879707,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        },
+        {
+          "t": 8.52888888888889,
+          "medi": 20485.609227296154,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        },
+        {
+          "t": 8.544444444444446,
+          "medi": 20657.994357077852,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        }
+      ],
+      "decomposition": {
+        "duration_h": 0.5522222222222222,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 5587.977782350655,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 3085.8055086980835,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": -6599.667506361668,
+        "gap_from_duration_lxh": -3964.27100811398,
+        "gap_from_exposure_rate_lxh": -2635.396498247689,
+        "duration_share_of_gap": 0.6006773832610005,
+        "dose_at_reference_duration_lxh": 6171.611017396167,
+        "reference_label": "On foot"
+      }
+    },
+    {
+      "key": "car_clear",
+      "label": "Private car, untinted",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "car_clear",
+        "mode_label": "Private car, untinted",
+        "duration_min": 14.91,
+        "mean_medi_travel_lx": 1807.8933370073696,
+        "mean_medi_best_heading_lx": 2389.979202159564,
+        "mean_medi_worst_heading_lx": 433.322350406267,
+        "dose_travel_lxh": 449.2614942463313,
+        "dose_best_lxh": 593.9098317366517,
+        "dose_worst_lxh": 107.68060407595735,
+        "mean_photopic_lux_travel": 2321.617926686568,
+        "mean_der": 0.7727332330724183,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 544.0689590268787,
+          "median": 1418.5863505275688,
+          "max": 2168.954993077398,
+          "ratio_max_min": 3.9865442736464676,
+          "travel_heading_percentile": 66.66666666666666
+        },
+        "source_shares": {
+          "sky": 0.43759403516592393,
+          "facade_left": 0.04872382318405939,
+          "facade_right": 0.48494964032605226,
+          "ground": 0.028732501323964398,
+          "direct_sun": 0.0
+        },
+        "counters": {
+          "steps": 15,
+          "sun_up_steps": 15,
+          "beam_visible_steps": 0,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 15,
+          "enclosure_filtered_steps": 15
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.05,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 449.2614942463313,
+        "dose_worst_lxh": 107.68060407595735,
+        "mean_der": 0.7727332330724183
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 449.2614942463313,
+          "dose_worst_lxh": 107.68060407595735,
+          "mean_der": 0.7727332330724183
+        },
+        "value": 449.2614942463313
+      },
+      "rose": [
+        883.065328730504,
+        702.1125608453492,
+        582.3653816718487,
+        546.993124294725,
+        544.0689590268787,
+        613.7532675013023,
+        763.1245515931906,
+        945.7862523641368,
+        1133.1371619495446,
+        1319.489165375951,
+        1506.3564856694927,
+        1687.5073909852415,
+        1847.5306792087622,
+        1975.206209666815,
+        2077.328100556069,
+        2161.9456744924437,
+        2168.954993077398,
+        2137.839487435213,
+        2082.5470001935623,
+        1970.6284702075461,
+        1793.5578455218056,
+        1570.4817364883968,
+        1330.816215385645,
+        1097.3970586309317
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.0105,
+          "medi": 674.3470837803643,
+          "section": "Residential para lane",
+          "svf": 0.052083333333333336
+        },
+        {
+          "t": 8.028500000000001,
+          "medi": 759.9588033982265,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.043500000000002,
+          "medi": 767.390749518006,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.0585,
+          "medi": 774.839065021397,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.074125,
+          "medi": 2398.404070521701,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.090375,
+          "medi": 2424.153528399425,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.106625000000001,
+          "medi": 2449.7641758422865,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.122875,
+          "medi": 2475.232258649167,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.139125,
+          "medi": 2500.5541295700455,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.155375000000001,
+          "medi": 2525.726247361177,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.171625,
+          "medi": 2550.745175604395,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.187875,
+          "medi": 2575.6075813821303,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.20475,
+          "medi": 578.7479162043312,
+          "section": "Flyover underpass",
+          "svf": 0.08072916666666667
+        },
+        {
+          "t": 8.22225,
+          "medi": 1909.1849057980285,
+          "section": "Motijheel office canyon",
+          "svf": 0.0546875
+        },
+        {
+          "t": 8.23975,
+          "medi": 1922.8863064982847,
+          "section": "Motijheel office canyon",
+          "svf": 0.0546875
+        }
+      ],
+      "decomposition": {
+        "duration_h": 0.2485,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 1807.8933370073696,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 449.2614942463313,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": -9236.21152081342,
+        "gap_from_duration_lxh": -4526.848922315447,
+        "gap_from_exposure_rate_lxh": -4709.3625984979735,
+        "duration_share_of_gap": 0.4901196678004159,
+        "dose_at_reference_duration_lxh": 1996.717752205917,
+        "reference_label": "On foot"
+      }
+    },
+    {
+      "key": "cng",
+      "label": "CNG auto-rickshaw (caged)",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "cng",
+        "mode_label": "CNG auto-rickshaw (caged)",
+        "duration_min": 18.6375,
+        "mean_medi_travel_lx": 1308.2096188107378,
+        "mean_medi_best_heading_lx": 1703.813033130561,
+        "mean_medi_worst_heading_lx": 120.42288278583176,
+        "dose_travel_lxh": 406.3626128430854,
+        "dose_best_lxh": 529.2469234161805,
+        "dose_worst_lxh": 37.40635796534899,
+        "mean_photopic_lux_travel": 1653.1755278871126,
+        "mean_der": 0.7833948648394585,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 149.500547235004,
+          "median": 769.3660024391424,
+          "max": 1608.44261580201,
+          "ratio_max_min": 10.758774101834257,
+          "travel_heading_percentile": 75.0
+        },
+        "source_shares": {
+          "sky": 0.24836974957210883,
+          "facade_left": 0.059038754969830395,
+          "facade_right": 0.60479438000263,
+          "ground": 0.08779711545543085,
+          "direct_sun": 0.0
+        },
+        "counters": {
+          "steps": 19,
+          "sun_up_steps": 19,
+          "beam_visible_steps": 0,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 19,
+          "enclosure_filtered_steps": 19
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.07,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 406.3626128430854,
+        "dose_worst_lxh": 37.40635796534899,
+        "mean_der": 0.7833948648394585
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 406.3626128430854,
+          "dose_worst_lxh": 37.40635796534899,
+          "mean_der": 0.7833948648394585
+        },
+        "value": 406.3626128430854
+      },
+      "rose": [
+        234.65611079699997,
+        169.41251478256424,
+        149.500547235004,
+        184.86086253866898,
+        233.1772905674889,
+        298.11181840958386,
+        402.983019134942,
+        532.0880083316123,
+        684.4224166479848,
+        862.6473299597359,
+        1053.8048449459973,
+        1232.9119198498888,
+        1386.6385522464789,
+        1505.0541969976998,
+        1577.7796968250764,
+        1608.44261580201,
+        1555.0469035992835,
+        1428.186061574537,
+        1264.249200297349,
+        1065.8522605549163,
+        854.3095882303,
+        657.0798909095537,
+        486.79187651833206,
+        343.09441880985116
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.0065625,
+          "medi": 411.1044901269689,
+          "section": "Residential para lane",
+          "svf": 0.052083333333333336
+        },
+        {
+          "t": 8.0196875,
+          "medi": 415.013956220142,
+          "section": "Residential para lane",
+          "svf": 0.052083333333333336
+        },
+        {
+          "t": 8.035625,
+          "medi": 561.9145288804299,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.054374999999999,
+          "medi": 568.3671792491087,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.073125,
+          "medi": 574.8295842688202,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.090625,
+          "medi": 1819.4171878241377,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.106874999999999,
+          "medi": 1837.6800029520232,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.123125,
+          "medi": 1855.7901927227738,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.139375,
+          "medi": 1873.7446267566952,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.155624999999999,
+          "medi": 1891.5402900754618,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.171875,
+          "medi": 1909.1742828735041,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.188125,
+          "medi": 1926.6438200721052,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.204374999999999,
+          "medi": 1943.9462307436784,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.220625,
+          "medi": 1961.0789574813457,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.236875,
+          "medi": 1978.0395555728537,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.2559375,
+          "medi": 514.1873584275698,
+          "section": "Flyover underpass",
+          "svf": 0.08072916666666667
+        },
+        {
+          "t": 8.274166666666666,
+          "medi": 992.8041132413446,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        },
+        {
+          "t": 8.288749999999999,
+          "medi": 996.5836471994891,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        },
+        {
+          "t": 8.303333333333333,
+          "medi": 1000.2563696217092,
+          "section": "Motijheel office canyon",
+          "svf": 0.055989583333333336
+        }
+      ],
+      "decomposition": {
+        "duration_h": 0.310625,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 1308.2096188107378,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 406.3626128430854,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": -9279.110402216666,
+        "gap_from_duration_lxh": -3999.9579811977073,
+        "gap_from_exposure_rate_lxh": -5279.152421018959,
+        "duration_share_of_gap": 0.4310712781520701,
+        "dose_at_reference_duration_lxh": 1444.8448456643036,
+        "reference_label": "On foot"
+      }
+    },
+    {
+      "key": "car_tinted",
+      "label": "Private car, bronze glazing",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "car_tinted",
+        "mode_label": "Private car, bronze glazing",
+        "duration_min": 14.91,
+        "mean_medi_travel_lx": 1478.2252526270322,
+        "mean_medi_best_heading_lx": 1499.7267658127676,
+        "mean_medi_worst_heading_lx": 103.62860702820178,
+        "dose_travel_lxh": 367.3389752778175,
+        "dose_best_lxh": 372.6821013044727,
+        "dose_worst_lxh": 25.751708846508144,
+        "mean_photopic_lux_travel": 1977.1825749704233,
+        "mean_der": 0.7450806191726185,
+        "frac_time_above_250_travel": 1.0,
+        "frac_time_above_250_best": 1.0,
+        "frac_time_above_136_travel": 1.0,
+        "heading_spread": {
+          "min": 140.55051371504004,
+          "median": 564.1204232975756,
+          "max": 1380.328894776664,
+          "ratio_max_min": 9.8208740636496,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.5351845661442294,
+          "facade_left": 0.038196081560458665,
+          "facade_right": 0.4036280432429813,
+          "ground": 0.022991309052330752,
+          "direct_sun": 0.0
+        },
+        "counters": {
+          "steps": 15,
+          "sun_up_steps": 15,
+          "beam_visible_steps": 0,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 15,
+          "enclosure_filtered_steps": 15
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.06,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 1.0,
+        "frac_above_250_best": 1.0,
+        "dose_travel_lxh": 367.3389752778175,
+        "dose_worst_lxh": 25.751708846508144,
+        "mean_der": 0.7450806191726185
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 1.0,
+          "frac_above_250_best": 1.0,
+          "dose_travel_lxh": 367.3389752778175,
+          "dose_worst_lxh": 25.751708846508144,
+          "mean_der": 0.7450806191726185
+        },
+        "value": 367.3389752778175
+      },
+      "rose": [
+        187.86883486036206,
+        150.36866325492488,
+        140.55051371504004,
+        176.19391122074182,
+        244.4251462136606,
+        369.54064638818863,
+        554.7709526474345,
+        759.8451148427325,
+        968.8027978975557,
+        1165.6352422137156,
+        1307.1342172415693,
+        1380.328894776664,
+        1380.0208674237301,
+        1306.738742502655,
+        1182.333929738311,
+        1032.3948458460636,
+        856.694920685263,
+        696.1540873994744,
+        573.4698939477166,
+        469.35525448385846,
+        388.9205398057903,
+        335.87860397727144,
+        284.0497425185804,
+        233.63809979246767
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.0105,
+          "medi": 587.4971889160879,
+          "section": "Residential para lane",
+          "svf": 0.052083333333333336
+        },
+        {
+          "t": 8.028500000000001,
+          "medi": 672.7894414807935,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.043500000000002,
+          "medi": 679.3096980547296,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.0585,
+          "medi": 685.8421570751603,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.074125,
+          "medi": 1900.5878780344724,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.090375,
+          "medi": 1921.0333189789385,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.106625000000001,
+          "medi": 1941.3912195803182,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.122875,
+          "medi": 1961.659039021944,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.139125,
+          "medi": 1981.834300348777,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.155375000000001,
+          "medi": 2001.914589493674,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.171625,
+          "medi": 2021.897554152811,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.187875,
+          "medi": 2041.780902568792,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.20475,
+          "medi": 430.1322782726726,
+          "section": "Flyover underpass",
+          "svf": 0.08072916666666667
+        },
+        {
+          "t": 8.22225,
+          "medi": 1725.5734891944346,
+          "section": "Motijheel office canyon",
+          "svf": 0.0546875
+        },
+        {
+          "t": 8.23975,
+          "medi": 1737.7690511613991,
+          "section": "Motijheel office canyon",
+          "svf": 0.0546875
+        }
+      ],
+      "decomposition": {
+        "duration_h": 0.2485,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 1478.2252526270322,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 367.3389752778175,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": -9318.134039781935,
+        "gap_from_duration_lxh": -4385.76013964745,
+        "gap_from_exposure_rate_lxh": -4932.373900134484,
+        "duration_share_of_gap": 0.47066935514377806,
+        "dose_at_reference_duration_lxh": 1632.6176679014109,
+        "reference_label": "On foot"
+      }
+    },
+    {
+      "key": "bus",
+      "label": "City bus, window seat",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "bus",
+        "mode_label": "City bus, window seat",
+        "duration_min": 21.3,
+        "mean_medi_travel_lx": 332.43885886109126,
+        "mean_medi_best_heading_lx": 1264.3711654825395,
+        "mean_medi_worst_heading_lx": 126.97522516301322,
+        "dose_travel_lxh": 118.01579489568739,
+        "dose_best_lxh": 448.85176374630146,
+        "dose_worst_lxh": 45.07620493286969,
+        "mean_photopic_lux_travel": 403.2864089522738,
+        "mean_der": 0.7975686438486381,
+        "frac_time_above_250_travel": 0.5231388329979878,
+        "frac_time_above_250_best": 0.8189134808853118,
+        "frac_time_above_136_travel": 0.7344064386317908,
+        "heading_spread": {
+          "min": 142.22389766276422,
+          "median": 354.43761473916027,
+          "max": 1242.6455579504957,
+          "ratio_max_min": 8.737248650694475,
+          "travel_heading_percentile": 50.0
+        },
+        "source_shares": {
+          "sky": 0.0,
+          "facade_left": 0.09699884093103421,
+          "facade_right": 0.8731848755963504,
+          "ground": 0.02981628347261541,
+          "direct_sun": 0.0
+        },
+        "counters": {
+          "steps": 22,
+          "sun_up_steps": 22,
+          "beam_visible_steps": 0,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 22,
+          "enclosure_filtered_steps": 22
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.08,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 0.5231388329979878,
+        "frac_above_250_best": 0.8189134808853118,
+        "dose_travel_lxh": 118.01579489568739,
+        "dose_worst_lxh": 45.07620493286969,
+        "mean_der": 0.7975686438486381
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 0.5231388329979878,
+          "frac_above_250_best": 0.8189134808853118,
+          "dose_travel_lxh": 118.01579489568739,
+          "dose_worst_lxh": 45.07620493286969,
+          "mean_der": 0.7975686438486381
+        },
+        "value": 118.01579489568739
+      },
+      "rose": [
+        272.09654939125136,
+        183.67189135450542,
+        144.13105359218557,
+        152.0768853608476,
+        167.86689559202603,
+        172.4492136039647,
+        168.78879940563965,
+        158.10776007612466,
+        142.22389766276422,
+        143.72126461500372,
+        199.4207648386132,
+        305.1362610995588,
+        453.840843804226,
+        633.3776141420607,
+        831.151502920195,
+        1029.592752962581,
+        1176.0769252539626,
+        1242.6455579504957,
+        1228.0393461526298,
+        1134.2263349570612,
+        968.6896329117262,
+        764.21188617398,
+        571.6508622575943,
+        403.7389683787617
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.0075,
+          "medi": 74.11630772196182,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.0225,
+          "medi": 75.02501369830635,
+          "section": "Residential para lane",
+          "svf": 0.053385416666666664
+        },
+        {
+          "t": 8.038035714285714,
+          "medi": 84.23519917380305,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.054107142857141,
+          "medi": 85.16760286311339,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.07017857142857,
+          "medi": 86.10453884505013,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.08625,
+          "medi": 87.0460536514498,
+          "section": "Mixed-use collector",
+          "svf": 0.078125
+        },
+        {
+          "t": 8.102727272727273,
+          "medi": 503.56600440141744,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.11961038961039,
+          "medi": 508.8745005480019,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.136493506493506,
+          "medi": 514.1233848540907,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.153376623376623,
+          "medi": 519.3114028877311,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.17025974025974,
+          "medi": 524.4373507868916,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.187142857142858,
+          "medi": 529.5000751111313,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.204025974025974,
+          "medi": 534.4984726001803,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.22090909090909,
+          "medi": 539.4314899029337,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.237792207792207,
+          "medi": 544.2981232300635,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.254675324675325,
+          "medi": 549.097417968873,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.271558441558442,
+          "medi": 553.8284682148549,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.286249999999999,
+          "medi": 154.35701462182445,
+          "section": "Flyover underpass",
+          "svf": 0.08333333333333333
+        },
+        {
+          "t": 8.29875,
+          "medi": 155.6331351779385,
+          "section": "Flyover underpass",
+          "svf": 0.08333333333333333
+        },
+        {
+          "t": 8.313333333333333,
+          "medi": 161.466260866927,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.33,
+          "medi": 162.45849575520106,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        },
+        {
+          "t": 8.346666666666666,
+          "medi": 163.4201302496569,
+          "section": "Motijheel office canyon",
+          "svf": 0.057291666666666664
+        }
+      ],
+      "decomposition": {
+        "duration_h": 0.355,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 332.43885886109126,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 118.01579489568739,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": -9567.457220164064,
+        "gap_from_duration_lxh": -3410.7148580550065,
+        "gap_from_exposure_rate_lxh": -6156.742362109058,
+        "duration_share_of_gap": 0.35649125776770585,
+        "dose_at_reference_duration_lxh": 367.160250786583,
+        "reference_label": "On foot"
+      }
+    },
+    {
+      "key": "car_film",
+      "label": "Private car, aftermarket film",
+      "summary": {
+        "route": "Dhaka-inspired five-section route, morning",
+        "mode": "car_film",
+        "mode_label": "Private car, aftermarket film",
+        "duration_min": 14.91,
+        "mean_medi_travel_lx": 378.5991047891402,
+        "mean_medi_best_heading_lx": 384.4478243518396,
+        "mean_medi_worst_heading_lx": 27.389578106826125,
+        "dose_travel_lxh": 94.08187754010135,
+        "dose_best_lxh": 95.53528435143214,
+        "dose_worst_lxh": 6.806310159546292,
+        "mean_photopic_lux_travel": 820.6788774293294,
+        "mean_der": 0.45859346988136457,
+        "frac_time_above_250_travel": 0.6639839034205232,
+        "frac_time_above_250_best": 0.6639839034205232,
+        "frac_time_above_136_travel": 0.9295774647887324,
+        "heading_spread": {
+          "min": 36.93199677491066,
+          "median": 146.02024326234567,
+          "max": 354.1246415240238,
+          "ratio_max_min": 9.588559310299583,
+          "travel_heading_percentile": 100.0
+        },
+        "source_shares": {
+          "sky": 0.5283288531796104,
+          "facade_left": 0.0382541047121345,
+          "facade_right": 0.41047079990553353,
+          "ground": 0.022946242202721515,
+          "direct_sun": 0.0
+        },
+        "counters": {
+          "steps": 15,
+          "sun_up_steps": 15,
+          "beam_visible_steps": 0,
+          "canopy_sections": 5,
+          "canopy_intercept_steps": 15,
+          "enclosure_filtered_steps": 15
+        },
+        "provenance": {
+          "package": "streetlux",
+          "official_action_spectra": true,
+          "spectral_inputs": {
+            "official_action_spectra": true,
+            "official_daylight_components": false,
+            "official_solar_spectrum": true
+          },
+          "known_biases": {
+            "one_bounce_canopy": {
+              "magnitude": "unquantified",
+              "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+              "fix": "none in this version; treat canopy scenarios as indicative.",
+              "affects": "canopy scenarios only."
+            }
+          },
+          "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+          "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+          "n_directions": 768,
+          "n_headings": 24,
+          "step_seconds": 60.0,
+          "wall_clock_s": 0.05,
+          "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+        }
+      },
+      "objectives": {
+        "frac_above_250_travel": 0.6639839034205232,
+        "frac_above_250_best": 0.6639839034205232,
+        "dose_travel_lxh": 94.08187754010135,
+        "dose_worst_lxh": 6.806310159546292,
+        "mean_der": 0.45859346988136457
+      },
+      "score": {
+        "objective": "dose_weighted",
+        "description": "Total melanopic dose over the trip, travel heading.",
+        "weights": {
+          "dose_travel_lxh": 1.0
+        },
+        "raw": {
+          "frac_above_250_travel": 0.6639839034205232,
+          "frac_above_250_best": 0.6639839034205232,
+          "dose_travel_lxh": 94.08187754010135,
+          "dose_worst_lxh": 6.806310159546292,
+          "mean_der": 0.45859346988136457
+        },
+        "value": 94.08187754010135
+      },
+      "rose": [
+        49.60776432595963,
+        39.70498746388033,
+        36.93199677491066,
+        45.84354774051735,
+        63.04650910344991,
+        94.66448145667218,
+        141.473189140788,
+        193.55591672468452,
+        246.9372599445852,
+        297.50762979055025,
+        334.13048828210583,
+        353.46232657738483,
+        354.1246415240238,
+        336.19943210192923,
+        305.19840243109803,
+        267.600002200571,
+        223.18067646578544,
+        182.26348284977013,
+        150.56729738390337,
+        123.52538336977341,
+        102.5545501088566,
+        88.61218654559934,
+        74.95819086903373,
+        61.67533876242022
+      ],
+      "headings": [
+        0.0,
+        15.0,
+        30.0,
+        45.0,
+        60.0,
+        75.0,
+        90.0,
+        105.0,
+        120.0,
+        135.0,
+        150.0,
+        165.0,
+        180.0,
+        195.0,
+        210.0,
+        225.0,
+        240.0,
+        255.0,
+        270.0,
+        285.0,
+        300.0,
+        315.0,
+        330.0,
+        345.0
+      ],
+      "series": [
+        {
+          "t": 8.0105,
+          "medi": 149.42590418484613,
+          "section": "Residential para lane",
+          "svf": 0.052083333333333336
+        },
+        {
+          "t": 8.028500000000001,
+          "medi": 172.8597672184105,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.043500000000002,
+          "medi": 174.5230950343968,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.0585,
+          "medi": 176.18966060801046,
+          "section": "Mixed-use collector",
+          "svf": 0.07682291666666667
+        },
+        {
+          "t": 8.074125,
+          "medi": 487.3503564154294,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.090375,
+          "medi": 492.5039172774419,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.106625000000001,
+          "medi": 497.63362536244085,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.122875,
+          "medi": 502.7388567178531,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.139125,
+          "medi": 507.8190039124572,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.155375000000001,
+          "medi": 512.8734757644978,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.171625,
+          "medi": 517.9016970325874,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.187875,
+          "medi": 522.9031080840201,
+          "section": "Kazi Nazrul arterial",
+          "svf": 0.15104166666666666
+        },
+        {
+          "t": 8.20475,
+          "medi": 109.55900336725485,
+          "section": "Flyover underpass",
+          "svf": 0.08072916666666667
+        },
+        {
+          "t": 8.22225,
+          "medi": 441.2272633071569,
+          "section": "Motijheel office canyon",
+          "svf": 0.0546875
+        },
+        {
+          "t": 8.23975,
+          "medi": 444.2040219026157,
+          "section": "Motijheel office canyon",
+          "svf": 0.0546875
+        }
+      ],
+      "decomposition": {
+        "duration_h": 0.2485,
+        "reference_duration_h": 1.1044444444444443,
+        "exposure_rate_medi": 378.5991047891402,
+        "reference_rate_medi": 8769.54297138207,
+        "dose_lxh": 94.08187754010135,
+        "reference_dose_lxh": 9685.473015059752,
+        "gap_lxh": -9591.39113751965,
+        "gap_from_duration_lxh": -3915.1506935436064,
+        "gap_from_exposure_rate_lxh": -5676.240443976045,
+        "duration_share_of_gap": 0.40819424809278193,
+        "dose_at_reference_duration_lxh": 418.14167795600594,
+        "reference_label": "On foot"
+      }
+    }
+  ],
+  "pareto_indices": [
+    0
+  ],
+  "spread_ratio_best_worst_dose": 102.94727601425075,
+  "provenance": {
+    "package": "streetlux",
+    "official_action_spectra": true,
+    "spectral_inputs": {
+      "official_action_spectra": true,
+      "official_daylight_components": false,
+      "official_solar_spectrum": true
+    },
+    "known_biases": {
+      "one_bounce_canopy": {
+        "magnitude": "unquantified",
+        "detail": "Foliage is a slab with a Beer-Lambert interception probability, not resolved geometry.",
+        "fix": "none in this version; treat canopy scenarios as indicative.",
+        "affects": "canopy scenarios only."
+      }
+    },
+    "k_mel_v_d65_derived_W_per_lm": 0.0013264190212874294,
+    "k_mel_deviation_from_CIE_S026_pct": 0.0165149515479846,
+    "n_directions": 768,
+    "n_headings": 24,
+    "step_seconds": 60.0,
+    "wall_clock_s": 0.25,
+    "units": "melanopic values are lx melanopic EDI (CIE S 026), not photopic lux"
+  }
+}

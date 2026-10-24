@@ -1,0 +1,107 @@
+{
+  "reference": "n_directions=768, step_seconds=60 (pipeline.py settings)",
+  "rows": [
+    {
+      "mode": "walk",
+      "label": "Walking",
+      "runs": [
+        {
+          "n_directions": 768,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 8769.54297138207,
+          "dose_travel_lxh": 9685.473015059752,
+          "change_vs_reference_pct": 0.0
+        },
+        {
+          "n_directions": 3072,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 8883.845758244255,
+          "dose_travel_lxh": 9811.714092994209,
+          "change_vs_reference_pct": 1.3034064287636538
+        },
+        {
+          "n_directions": 12288,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 8899.745650441015,
+          "dose_travel_lxh": 9829.274640598187,
+          "change_vs_reference_pct": 1.4847145339710321
+        },
+        {
+          "n_directions": 768,
+          "step_seconds": 15.0,
+          "mean_medi_travel_lx": 8769.52570443112,
+          "dose_travel_lxh": 9685.453944671703,
+          "change_vs_reference_pct": -0.0001968968167065377
+        }
+      ]
+    },
+    {
+      "mode": "cng",
+      "label": "CNG auto-rickshaw",
+      "runs": [
+        {
+          "n_directions": 768,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 1308.2096188107378,
+          "dose_travel_lxh": 406.3626128430854,
+          "change_vs_reference_pct": 0.0
+        },
+        {
+          "n_directions": 3072,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 1287.2907391259237,
+          "dose_travel_lxh": 399.86468584099003,
+          "change_vs_reference_pct": -1.5990464665617599
+        },
+        {
+          "n_directions": 12288,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 1330.6574761262732,
+          "dose_travel_lxh": 413.3354785217236,
+          "change_vs_reference_pct": 1.7159220504694206
+        },
+        {
+          "n_directions": 768,
+          "step_seconds": 15.0,
+          "mean_medi_travel_lx": 1308.2059454133976,
+          "dose_travel_lxh": 406.3614717940366,
+          "change_vs_reference_pct": -0.00028079577518713705
+        }
+      ]
+    },
+    {
+      "mode": "car_film",
+      "label": "Car with film",
+      "runs": [
+        {
+          "n_directions": 768,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 378.5991047891402,
+          "dose_travel_lxh": 94.08187754010135,
+          "change_vs_reference_pct": 0.0
+        },
+        {
+          "n_directions": 3072,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 392.0805254291987,
+          "dose_travel_lxh": 97.43201056915588,
+          "change_vs_reference_pct": 3.5608696559298325
+        },
+        {
+          "n_directions": 12288,
+          "step_seconds": 60.0,
+          "mean_medi_travel_lx": 400.29050056441326,
+          "dose_travel_lxh": 99.4721893902567,
+          "change_vs_reference_pct": 5.729383799614118
+        },
+        {
+          "n_directions": 768,
+          "step_seconds": 15.0,
+          "mean_medi_travel_lx": 378.59802259061445,
+          "dose_travel_lxh": 94.08160861376768,
+          "change_vs_reference_pct": -0.00028584286441146745
+        }
+      ]
+    }
+  ]
+}
